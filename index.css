@@ -1,0 +1,136 @@
+body {
+  background-image: url(./img/Background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__logo {
+  height: 23px;
+  width: 170px;
+  margin-top: 29px;
+  margin-left: 50px;
+}
+
+.main__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 31px;
+  margin-right: 46px;
+}
+
+.main__menuIcon {
+  width: 38px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.main__menuList {
+  text-align: end;
+  margin-top: 8px;
+}
+
+.main__menuItem {
+  margin-bottom: 9px;
+  margin-top: 9px;
+  font-family: 'montserratbold';
+  color: white;
+  cursor: pointer;
+}
+
+.main__heading > h1 {
+  font-family: 'montserratblack';
+  font-size: 60px;
+  background: linear-gradient(-142deg, #ffbcff 0%, #aadeba 52%, #f8f4ba 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 51px;
+}
+
+.main__heading > h2 {
+  font-family: 'montserratblack';
+  font-size: 60px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px white;
+  margin-left: 51px;
+}
+
+.main__music {
+  margin-left: 71px;
+}
+
+.main__music1 {
+  position: relative;
+  bottom: 76px;
+}
+
+.main__music2 {
+  position: relative;
+  left: -198px;
+}
+
+.main__music3 {
+  position: relative;
+  left: 164px;
+  top: -240px;
+}
+
+.main__centr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  position: relative;
+  bottom: 164px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__social > img:nth-child(2) {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer__text {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: relative;
+  bottom: 77px;
+  left: 25px;
+}
+
+.footer__text > h3 {
+  font-family: 'montserratbold';
+  font-size: 12px;
+  color: white;
+}
+
+.footer__text > span {
+  font-family: 'montserratbold';
+  font-size: 10px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

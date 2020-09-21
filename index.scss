@@ -1,0 +1,115 @@
+body {
+    background-image: url(./img/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        height: 23px;
+        width: 170px;
+        margin-top: 29px;
+        margin-left: 50px;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 31px;
+        margin-right: 46px;
+    }
+
+    &__menuIcon {
+        width: 38px;
+        height: 27px;
+        cursor: pointer;
+    }
+
+    &__menuList {
+        text-align: end;
+        margin-top: 8px;
+    }
+
+    &__menuItem {
+        margin-bottom: 9px;
+        margin-top: 9px;
+        font-family: 'montserratbold';
+        color: white;
+        cursor: pointer;
+    }
+
+    &__heading > h1 {
+        font-family: 'montserratblack';
+        font-size: 60px;
+        background: linear-gradient(-142deg, rgba(255,188,255,1) 0%, rgba(170,222,186,1) 52%, rgba(248,244,186,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: 51px;
+    }
+
+    &__heading > h2 {
+        font-family: 'montserratblack';
+        font-size: 60px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 3px white;
+        margin-left: 51px;
+    }
+
+    &__music {
+        margin-left: 71px;
+
+        &1{
+            position: relative;
+            bottom: 76px;
+        }
+
+        &2 {
+            position: relative;
+            left: -198px;
+        }
+
+        &3 {
+            position: relative;
+            left: 164px;
+            top: -240px;
+        }
+    }
+
+    &__centr {
+        display: flex;
+    }
+}
+
+.footer {
+    position: relative;
+    bottom: 164px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    &__social > img:nth-child(2) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    &__text {
+        transform: rotate(-90deg);
+        position: relative;
+        bottom: 77px;
+        left: 25px;
+        & > h3 {
+            font-family: 'montserratbold';
+            font-size: 12px;
+            color: white;
+        }
+
+        & > span{
+            font-family: 'montserratbold';
+            font-size: 10px;
+            color: white;
+        }
+    }
+}
